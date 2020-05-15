@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Bootstrap Final Project</title>
+
+    <style type="text/css">
+        #mySuperJumbotron {
+            background-image: url("akhil-lincoln-dSeQCOh_q7o-unsplash.jpg")!important;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            color: white;
+            margin-top: 56px;
+        }
+        
+        #email-input {
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+        
+        #email-input::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: lightslategray;
+            opacity: 1;
+            /* Firefox */
+        }
+        
+        #email-width {
+            width: 500px;
+            margin: auto;
+        }
+        
+        #card-title-image {
+            width: 30px;
+            float: inline-start;
+            margin-right: 10px;
+        }
+        
+        #jumbotron-do-rodape {
+            background-color: #1AFFFF;
+        }
+        
+        #img-app-store {
+            border-radius: 7px;
+        }
+        
+        body {
+            position: relative;
+        }
+        
+        #under-jumbotron {
+            margin-top: 0;
+        }
+        
+        #home {
+            background-color: #1B2553;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#home" data-offset="0">
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-faded" id="home">
+        <a class="navbar-brand" href="#home">Le App !</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="home">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mySuperJumbotron">Sobre o App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rodape">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#card-holder">Nosso App</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Username" id="usernameBox">
+                <input class="form-control mr-sm-2" type="password" placeholder="Password" id="passwordBox">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" id="mySuperJumbotron">
+        <div class="container">
+
+            <h1 class="display-4 text-center">Ess App é fantástico!</h1>
+
+            <p class="lead text-center">É por isso que VOCÊ deve baixar esse APP!</p>
+            <hr></hr>
+
+            <p class='text-center font-weight-bold'>Quer saber mais? Coloca seu email aqui!</p>
+
+            <div class="input-group mb-3 col" id="email-width">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+
+                <input id="email-input" type="email" class="form-control email" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
+
+                <button class="btn btn-primary ml-3" type="button" id="button-addon2">Cadastrar</button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="under-jumbotron">
+        <h1 class="display-6 text-center">Por quê esse App é fantástico</h1>
+        <p class="lead text-center">Sumário, mais uma vez, das maravilhas de seu App</p>
+    </div>
+
+    <div class='container' id="card-holder">
+        <div class="row">
+
+            <div class="pr-4 col-sm-4">
+                <div class="card col-sm-offset-3">
+                    <img src="image.jpg" id="card-image" class="card-img-top img-fluid mt-2" alt="Image">
+                    <div class="card-body">
+                        <div class="card-title-holder">
+                            <img id="card-title-image" src="interface.png">
+                            <h5 class="card-title">Título do Card</h5>
+                        </div>
+                        <p class="card-text">Um exemplo rápido de texto para proceder o título e construir o grosso do corpo do card.</p>
+                        <a href="#" class="btn btn-primary">Botão Azul</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pr-4 col-sm-4">
+                <div class="card col-sm-offset-3">
+                    <img src="image.jpg" id="card-image" class="card-img-top img-fluid mt-2" alt="Image">
+                    <div class="card-body">
+                        <div class="card-title-holder">
+                            <img id="card-title-image" src="interface.png">
+                            <h5 class="card-title">Título do Card</h5>
+                        </div>
+                        <p class="card-text">Um exemplo rápido de texto para proceder o título e construir o grosso do corpo do card.</p>
+                        <a href="#" class="btn btn-primary">Botão Azul</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pr-4 col-sm-4">
+                <div class="card col-sm-offset-3">
+                    <img src="image.jpg" id="card-image" class="card-img-top img-fluid mt-2" alt="Image">
+                    <div class="card-body">
+                        <div class="card-title-holder">
+                            <img id="card-title-image" src="interface.png">
+                            <h5 class="card-title">Título do Card</h5>
+                        </div>
+                        <p class="card-text">Um exemplo rápido de texto para proceder o título e construir o grosso do corpo do card.</p>
+                        <a href="#" class="btn btn-primary">Botão Azul</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="rodape" class="pt-5">
+        <div class="jumbotron text-center" id="jumbotron-do-rodape">
+            <h1 class="display-5">Download Le App!</h1>
+            <p class="lead">Mesmo? Por quê eu deveria baixar?</p>
+            <div id='img-de-rodape'>
+                <img src="AppStoreIcon.png" id="img-app-store" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script type="text/JavaScript">
+        $(document).ready(function () { $('#mySuperJumbotron').css('background-image', "url('akhil-lincoln-dSeQCOh_q7o-unsplash.jpg'")})
+    </script>
+</body>
+
+</html>
